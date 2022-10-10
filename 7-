@@ -1,0 +1,27 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("digite um valor");
+        int numero1 = entrada.nextInt();
+
+
+
+        if(numero1<0){
+
+            int resultado= numero1*-1;
+            System.out.println("módulo:"+resultado);
+        }
+
+        else {
+
+            int resultado2= numero1*1;
+            System.out.println("módulo:" + resultado2);
+        }
+
+    }
+}
