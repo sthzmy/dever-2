@@ -10,11 +10,11 @@ public class media {
         int num = entrada.nextInt();
 
 
-        if (num/4==0){//se o resto for divisivel por 4 e 5
+        if (num%4==0 && num%5==0){//se o resto for divisivel por 4 e 5
 
             System.out.println(+num);
         }
-         else{
+        else{
 
             System.out.println("Nã é possivel dividir este número por 4 e 5");
         }
