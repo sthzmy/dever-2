@@ -1,0 +1,21 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite a capital do Brasil");
+        String capital= entrada.nextLine();
+
+        if (capital.equals("Brasília") ){
+
+            System.out.println("resposta correta");
+        }
+         else{
+
+            System.out.println("resposta errada");
+        }
+    }
+}
