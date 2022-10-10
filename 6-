@@ -1,0 +1,29 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("digite o primeiro valor");
+        int numero1 = entrada.nextInt();
+        System.out.println("digite o segundo valor");
+        int numero2 = entrada.nextInt();
+
+
+
+        if(numero1>numero2){
+
+            int resultado= numero1-numero2;
+            System.out.println("Resultado:"+resultado);
+        }
+
+        else {
+
+            int resultado2= numero2-numero1;
+            System.out.println("Resultado:" + resultado2);
+        }
+
+    }
+}
