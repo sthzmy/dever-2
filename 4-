@@ -1,0 +1,22 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite um número inteiro");
+        int num = entrada.nextInt();
+
+
+        if (num/4==0){//se o resto for divisivel por 4 e 5
+
+            System.out.println(+num);
+        }
+         else{
+
+            System.out.println("Nã é possivel dividir este número por 4 e 5");
+        }
+    }
+}
