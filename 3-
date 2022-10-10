@@ -1,0 +1,23 @@
+import  java.util.Scanner;
+
+public class media {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite um número");
+        int num = entrada.nextInt();
+
+
+        if (num%2==0){//se o resto for 0
+
+            System.out.println("esse número é par");
+        }
+         else{
+
+            System.out.println("esse número é impar");
+        }
+    }
+}
+
