@@ -1,0 +1,21 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+public class Principal{
+    public static void main(String [] args){
+
+
+        Scanner entrada= new Scanner(System.in);
+            System.out.print("Digite o número");
+            String numero1 = entrada.nextLine();
+            System.out.print("Digite o número");
+            String numero2= entrada.nextLine();
+            System.out.print("Digite o número");
+            String numero3= entrada.nextLine();
+            List<String> list = Arrays.asList(numero1, numero2, numero3);
+           Collections.sort(list);
+            System.out.println("a ordem crescente é:"+list);
+
+    }//main
+}//clas
