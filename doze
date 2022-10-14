@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Principal{
+    public static void main(String [] args){
+
+       float maior,
+               numero;
+       int count=2;
+
+        Scanner entrada= new Scanner(System.in);
+            System.out.print("Digite o primeiro número inteiro");
+            numero =entrada.nextFloat();
+            maior = numero;
+
+            while (count <= 5) {
+            System.out.print("Numero"+count+":");
+                numero =entrada.nextFloat();
+
+
+               if (numero>maior){
+                   maior=numero;
+               }//if
+                count++;
+            }//while
+        float menor,
+                numero2;
+            int count2=9999;
+            menor = numero;
+            while(count<= 5){
+
+            }//while
+        count++;
+            System.out.println("o maior número é"+maior);
+            System.out.println("o menor número é" +menor);
+    }//main
+}//clas
