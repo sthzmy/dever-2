@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Principal{
+
+    public static void main(String [] args){
+        Scanner entrada= new Scanner(System.in);
+
+            System.out.print("Digite um número de 3 casas:");
+            int num =entrada.nextInt();
+            int num2 = num/100;
+            System.out.print("O algarismo das centenas é:" +num2);
+
+
+    }//main
+}//class
